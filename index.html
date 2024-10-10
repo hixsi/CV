@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="intro-container">
+        <img id="home_page_image" src="static/my_photo.jpg" alt="Content Image">
+   
+    <div id="welcome">
+        <pre>
+"WELCOME TO MY 
+PAGE"</pre>
+</div>
+</div>
+
+    <div id="message">
+        <pre>
+const passionForLearning = true;
+function applyForJob(companyName) {
+    console.log(`Dear ${companyName},`);
+    if (passionForLearning) {
+        console.log("I’m eager to learn and grow!");
+    }
+    return "hired";
+}
+const result = applyForJob("Awesome Tech Company");
+console.log(result);          
+        </pre>
+    </div>
+
+    <!-- Menu Section -->
+    <div id="menu">
+        <button onclick="showContent('About Me')">About Me</button>
+        <button onclick="showContent('Skills')">Skills</button>
+        <button onclick="showContent('Passions')">Passions</button>
+        <button onclick="showContent('Education')">Education</button>
+    </div>
+
+    <!-- Content Section -->
+    <div id="content">
+        
+        <h2 id="section-heading" >Text</h2>
+
+        <!-- Icon Box for Skills (Initially hidden, only shown for Skills section) -->
+        <div id="icon-box" class="icon-row">
+          
+            <!-- Add more tool icons as needed -->
+        </div>
+
+        <div id="image-text-container">
+            <div id="imageBox">
+                <img id="contentImage" src="" alt="Content Image">
+            </div>
+            <div id="textBox">
+                <p id="contentText">Select an option to see content.</p>
+            </div>
+        </div>
+
+        <div id="education">
+        </div>
+
+        <div id="socials">
+            <!-- Existing content of the passions section goes here -->
+            
+            <!-- Icons with Text Row -->
+            <div class="icons-text-row">
+                <div class="icon-text-pair">
+                    <img src="static/linkedin.png" alt="Icon 1" class="big-icon">
+                    <p style="padding:10px; font-size: 16px; color:#89868d; ">@Kristiana</p>
+                    <p style="padding:10px; font-size: 16px; color:#89868d; ">Kalcheva</p>
+                </div>
+                <div class="icon-text-pair">
+                    <img src="static/email.png" alt="Icon 2" class="big-icon">
+                    <p style="padding:10px; font-size: 16px; color:#89868d; ">adria.tern@gmail.com</p>
+                </div>
+                <div class="icon-text-pair">
+                    <img src="static/phone.png" alt="Icon 3" class="big-icon">
+                    <p style="padding:10px; font-size: 16px; color:#89868d; ">0877971227</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="main.js"></script>
+</body>
+</html>
