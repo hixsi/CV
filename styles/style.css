@@ -8,11 +8,8 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(180deg, rgb(10, 5, 28), rgb(0, 0, 0));
     color: white;
-    min-height: 100vh;
     display: flex;
-    padding: 5vw, 5vw, 5vw, 5vw;
     flex-wrap: wrap;
-    max-width: 200vw;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
