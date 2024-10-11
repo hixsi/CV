@@ -370,10 +370,11 @@ p {
 
     #menu{
         flex-direction: column;
+        width: 100%;
     }
 
     #menu button {
-        padding: 12vw 12vw;
+       
         margin: 1vh;
 
     }
