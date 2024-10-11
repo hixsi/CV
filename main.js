@@ -110,12 +110,12 @@ function showContent(content) {
     
     const formattedText_about_me = paragraphs_about_me.map(paragraph => `<p id = "textStyle">${paragraph}</p>`).join(' <img id ="icon2" src="static/star.png" alt="Tool 2" class="tool-icon">');
     
-    
     setTimeout(() => {
 
         contentDiv.style.display = 'flex';
         contentDiv.offsetHeight;
         contentDiv.classList.add('active');
+        canvas.style.display = 'none';
 
         if (content === 'About Me') {
             sectionHeading.innerText = 'About Me: Why should I be your colleague?';
