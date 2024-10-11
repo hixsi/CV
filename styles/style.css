@@ -371,11 +371,10 @@ p {
     }
 
     #menu button {
-        padding: 1vw 1vw;
+        padding: 2vw 2vw;
         margin: 1vh;
-    }
 
-   
+    }
 
     .icons-text-row {
         flex-direction: column;
