@@ -10,6 +10,7 @@ body {
     color: white;
     min-height: 100vh;
     display: flex;
+    padding:5vw;
     flex-wrap: wrap;
     max-width: 200vw;
     flex-direction: column; 
@@ -17,7 +18,7 @@ body {
     align-items: center;
     overflow-y: auto;
     overflow-x: auto;
-    padding:5vw;
+  
 }
 
 
@@ -374,9 +375,7 @@ p {
         margin: 1vh;
     }
 
-    #content {
-        padding: 1vw;
-    }
+   
 
     .icons-text-row {
         flex-direction: column;
