@@ -118,7 +118,7 @@ function showContent(content) {
         canvas.style.display = 'none';
 
         if (content === 'About Me') {
-            sectionHeading.innerText = 'About Me: Why should I be your colleague?';
+            sectionHeading.innerText = 'About Me: Why should I become your colleague?';
             contentImage.src = 'static/my_photo.jpg';
             iconBox.innerHTML = "";
             education.innerHTML = "";
