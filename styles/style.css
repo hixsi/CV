@@ -10,12 +10,16 @@ body {
     color: white;
     min-height: 100vh;
     display: flex;
+    flex-wrap: wrap;
+    max-width: 200vh;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
+    padding:10vh;
 }
+
 
 #intro-container {
     display: flex;
@@ -33,7 +37,7 @@ body {
     -webkit-background-clip: text;
     z-index: 1;
     opacity: 1;
-    margin-bottom: 20px;
+    margin: 20px;
     text-align: left; 
     animation: fadeIn 1.5s forwards;
     
@@ -349,3 +353,33 @@ p {
     margin-bottom: 15px; 
 }
 
+@media only screen and (max-width: 500px) {
+    #welcome {
+        font-size: 20px; /* Smaller font for very small screens */
+    }
+
+    #message {
+        font-size: 14px;
+    }
+
+    #home_page_image {
+        width: 120px;
+        height: 120px;
+    }
+
+    #menu{
+        flex-direction: column;
+    }
+
+    #menu button {
+        margin: 10vh;
+    }
+
+    #content {
+        padding: 10px;
+    }
+
+    .icons-text-row {
+        flex-direction: column;
+    }
+}
