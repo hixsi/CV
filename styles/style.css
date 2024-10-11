@@ -18,7 +18,7 @@ body {
     align-items: center;
     overflow-y: auto;
     overflow-x: auto;
-    padding: 3 vw,  3 vw, 3 vw, 3 vw ;
+    padding: 4px, 4px, 4px, 4px ;
   
 }
 
@@ -130,6 +130,7 @@ body {
     opacity: 0;
     z-index: 2;
     position: relative;
+    padding: 5 vw, 5 vw, 5 vw, 5 vw;
     
     transition: opacity 0.5s ease-in-out; 
     justify-content: center;
