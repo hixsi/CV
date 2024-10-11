@@ -18,7 +18,7 @@ body {
     align-items: center;
     overflow-y: auto;
     overflow-x: auto;
-    padding: 4px;
+    padding: 6px;
   
 }
 
@@ -130,7 +130,7 @@ body {
     opacity: 0;
     z-index: 2;
     position: relative;
-    padding: 4px;
+    padding: 6px;
     
     transition: opacity 0.5s ease-in-out; 
     justify-content: center;
@@ -385,8 +385,10 @@ p {
     #textBox {
         padding:1vw;
     }
-
     
+    #canvas {
+        display: none;
+    }
 
     
 }
